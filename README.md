@@ -6,7 +6,7 @@ ComfyUI as a Nix expression. Give it a try:
 # ComfyUI is patched to keep models and other runtime data in $PWD.
 mkdir comfyui && cd comfyui
 # Run ComfyUI with all custom nodes packaged by this flake.
-nix run github:dyscorv/nix-comfyui#comfyui-with-extensions
+nix run github:m5tar/nix-comfyui#comfyui-with-extensions
 ```
 
 Then setup and run Krita with ComfyUI integration:
